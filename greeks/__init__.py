@@ -1,5 +1,1 @@
-from ._version import __version__  # noqa: F401
-
-
-def greeks():
-    pass
+__version__ = "0.0.2"

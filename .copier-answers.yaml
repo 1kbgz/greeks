@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier
+_commit: 5c63cb2
+_src_path: https://github.com/python-project-templates/base.git
+add_extension: python
+email: t.paine154@gmail.com
+github: 1kbgz
+project_description: greeks is a library for modeling financial instruments using
+    lazy and/or streaming graphs.
+project_name: greeks
+python_version_primary: '3.11'
+team: the greeks authors
