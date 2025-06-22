@@ -4,7 +4,7 @@ build-backend="hatchling.build"
 
 [project]
 name = "greeks"
-authors = [{name = "the greeks authors", email = "t.paine154@gmail.com"}]
+authors = [{name = "the greeks authors", email = "dev@1kbgz.com"}]
 description = "greeks is a library for modeling financial instruments using lazy and/or streaming graphs."
 readme = "README.md"
 license = { text = "Apache-2.0" }
