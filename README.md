@@ -9,6 +9,7 @@ greeks is a library for modeling financial instruments using lazy and/or streami
 
 ## Overview
 
+<<<<<<< before updating
 Coming Soon!
 
 ## Installation
@@ -28,5 +29,7 @@ Thanks to the following organizations for providing code or financial support.
 ## License
 This software is licensed under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
 
+=======
+>>>>>>> after updating
 > [!NOTE]
 > This library was generated using [copier](https://copier.readthedocs.io/en/stable/) from the [Base Python Project Template repository](https://github.com/python-project-templates/base).

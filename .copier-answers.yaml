@@ -1,8 +1,9 @@
 # Changes here will be overwritten by Copier
-_commit: c53b04c
+_commit: 9642da9
 _src_path: https://github.com/python-project-templates/base.git
 add_docs: false
 add_extension: python
+add_wiki: false
 email: dev@1kbgz.com
 github: 1kbgz
 project_description: greeks is a library for modeling financial instruments using
