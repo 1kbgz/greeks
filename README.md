@@ -16,9 +16,11 @@ Coming Soon!
 `pip install greeks`
 
 ## Overview
+
 `greeks` is built on [tributary](https://github.com/1kbgz/tributary), a library for constructing dataflow graphs in Python.
 
 ## Support / Contributors
+
 Thanks to the following organizations for providing code or financial support.
 
 <a href="https://nemoulous.com"><img src="https://raw.githubusercontent.com/1kbgz/tributary/main/docs/img/nem.png" width="50"></a>
@@ -26,6 +28,7 @@ Thanks to the following organizations for providing code or financial support.
 <a href="https://nemoulous.com">Nemoulous</a>
 
 ## License
+
 This software is licensed under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
 
 > [!NOTE]
