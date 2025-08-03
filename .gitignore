@@ -139,10 +139,13 @@ js/dist
 js/lib
 js/node_modules
 js/*.tgz
+greeks/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
+!greeks/extension/greeks.json
+!greeks/extension/install.json
 greeks/nbextension
 greeks/labextension
 
