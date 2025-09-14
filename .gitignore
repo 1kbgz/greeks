@@ -146,6 +146,7 @@ greeks/extension
 # Jupyter
 .ipynb_checkpoints
 .autoversion
+Untitled*.ipynb
 !greeks/extension/greeks.json
 !greeks/extension/install.json
 greeks/nbextension
