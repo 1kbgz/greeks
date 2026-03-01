@@ -78,6 +78,7 @@ branch = true
 omit = [
     "greeks/tests/integration/",
 ]
+
 [tool.coverage.report]
 exclude_also = [
     "raise NotImplementedError",
