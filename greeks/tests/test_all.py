@@ -1,4 +1,4 @@
-from greeks import *  # noqa
+from greeks import *
 
 
 def test_all():
