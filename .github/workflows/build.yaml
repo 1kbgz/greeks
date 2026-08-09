@@ -25,12 +25,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        python-version: ["3.11"]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -41,7 +36,7 @@ jobs:
       - name: Setup Python
         uses: actions-ext/python/setup@6e1b91a408ea89f49bc8aff8724f83826f7b5446
         with:
-          version: ${{ matrix.python-version }}
+          version: "3.11"
 
       - name: Install dependencies
         run: make develop
@@ -61,9 +56,9 @@ jobs:
       - name: Upload test results (Python)
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
         with:
-          name: test-results-${{ matrix.os }}-${{ matrix.python-version }}
+          name: test-results
           path: junit.xml
-        if: ${{ always() }}
+        if: always()
 
       - name: Publish test results
         uses: EnricoMi/publish-unit-test-result-action@d0a4676d0e0b938bc201470d88276b7c74c712b3  # v2.24.0
@@ -91,5 +86,5 @@ jobs:
       - name: Upload distributions
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
         with:
-          name: dist-${{matrix.os}}
+          name: dist
           path: dist
